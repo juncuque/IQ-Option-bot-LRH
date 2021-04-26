@@ -1,7 +1,7 @@
 # IQ-Option-bot-LRH
 An free automatic bot for IQ Option, using BBands as the main strategy. Plus saving systems, configurations, cataloguer, simulator, and analyzer. 
 
-This project is currently at a "Dumping Ground" status, which means that this project doesn't have any plans to be continued, so feel free to modify it or use it at your own will and discretion, go to the end of this page to read about the copyright license.
+This project is currently at a "Dumping Ground" status, which means that this project doesn't have any plans to be continued, so feel free to modify or use it at your own will and discretion, go to the end of this page to read about the copyright license.
 
 Software tested only in Windows OS.
 
@@ -26,27 +26,27 @@ To stop it, you simply click to close the window normally.
 
 You can have multiple windows of the bot working simultaneously, but it's not recommended to do that with them on the same configuration, because they may write different/wrong results on the save file and maybe even crashing.
 
-The results in the bets will be saved on the configuration file so you can see the winrate of it even between different sessions in which the bot was active.
+The results of the bets will be saved on the configuration file so you can see the winrate of it even between different sessions in which the bot was active.
 
 
 # Simulations
-For this part it's recomended for better hardware-only, because it may be slow depending on the CPU, a lot of space available to storage, and may not even work if you have 4MB of RAM or less. (tests need to be made)
+For this part it's recomended for better hardware-only, because it may be slow depending on the CPU, it needs a lot of space available to storage, and may not even work if you have 4MB of RAM or less. (tests need to be made)
 
 To do a simulation first you need to open the cataloguer, it will simply collect all the data from the IQ Option servers from past values on the binary options. (2 Months = 12.6GB;  1 Week = 1.49GB; 1 Day = 218MB) {They are day's worth, meaning that they always are going to be more than a day because IQ Option closes for somedays and sometimes}
 
 Then, you'll be able to do a simulation with the collected data, there are going to be two options: multi-simulation and single-simulation. For multi-simulation, you can hold an array of values for each configuration variable for it to cross-test, while the single-simulation will only simulate with the currently selected configuration.
 
-It'll be slow, depending on the cataloguer's time and how many configurations you're testing, and at your first simulation you'll create a "cache" which will allow for next simulations with similar values to be faster, whatever it will also be very storage costly, being a matter of dozens of GBs (Ex.: A 2 Months cache can reach around 200GB, and it can be bigger depending in who many cross-test you make)
+It'll be slow, depending on the cataloguer's time and how many configurations you're testing, and at your first simulation you'll create a "cache" which will allow for next simulations with similar values to be faster, whatever it will also be very storage costly, reaching the hundreds of GBs (Ex.: A 2 Months cache can reach around 200GB, and it can be bigger depending in how many cross-tests you make)
 
 Don't worry about keeping your PC turned on all the time, I made a save system where at the end of each configuration you can quit the program anytime and continue afterwards on the last configuration saved.
 
-At the end of it, you'll be presented with a report of all the configurations and a "podium" of which were the best, you can select by typing their position number and add them to your configuration list.
+At the end of it, you'll be presented with a report of all the configurations and a "podium" of which were the best, you can select by typing their position number and then add it to your configuration list.
 
 
 NOTE: Some Binaries won't have a result, probably because the variable of "bbands_desvio" is out of range in some currencies. (or something like that)
 
 
-# About the bot
+# About the bot's code
 It's the first time I coded in python, so don't expect it to be organized or pretty to look at. 
 
 I decided to abandon this project after 2 months of coding it, after realizing that this bot wouldn't be a "gold mine" as I was hoping for and that it would have a massive impact on my CPU to truly try reaching a good strategy. 
