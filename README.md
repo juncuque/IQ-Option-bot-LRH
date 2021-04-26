@@ -10,7 +10,6 @@ Software tested only in Windows OS.
 - First, you need to have Python 3.7 and its pip installed.
 - It's recommended to have these files in an enclosed and previously empty folder.
 - Then you need to have the proper libraries for the code to work by executing "install_libraries.bat" or installing one by one as they are shown in the code.
-  IMPORTANT NOTE: Never trust .bat files, it's always recommended to right-click and select "edit" to see what the code is about before executing them. It also goes for modifying or adding code without any knowledge of what you're doing.
 - Finally, you can execute "@startbot.bat" or use the CMD in the folder with the command: "python botexe.py".
 - Upon the start of the program you can move within it by typing the numbers or commands shown on the screen and sending it with the "enter" button.
 - At first, you'll be asked to login with your IQ Option account, you may do so by putting your email and password, do not worry, that information is going to stay only on your PC and will be encrypted with your hardware serial ID, meaning that it's only possible to unencrypt it if you run the program within your PC's hardware.
