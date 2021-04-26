@@ -3,6 +3,8 @@ An free automatic bot for IQ Option, using BBands as the main strategy. Plus sav
 
 This project is currently at a "Dumping Ground" status, which means that this project doesn't have any plans to be continued, so feel free to modify it or use it at your own will and discretion, go to the end of this page to read about the copyright license.
 
+Software tested only in Windows OS.
+
 
 # How to make it work
 - First, you need to have Python 3.7 and its pip installed.
@@ -28,6 +30,8 @@ The results in the bets will be saved on the configuration file so you can see t
 
 
 # Simulations
+For this part it's recomended for better hardware-only, because it may be slow depending on the CPU, a lot of space available to storage, and may not even work if you have 4MB of RAM or less. (tests need to be made)
+
 To do a simulation first you need to open the cataloguer, it will simply collect all the data from the IQ Option servers from past values on the binary options. (2 Months = 12.6GB;  1 Week = 1.49GB; 1 Day = 218MB) {They are day's worth, meaning that they always are going to be more than a day because IQ Option closes for somedays and sometimes}
 
 Then, you'll be able to do a simulation with the collected data, there are going to be two options: multi-simulation and single-simulation. For multi-simulation, you can hold an array of values for each configuration variable for it to cross-test, while the single-simulation will only simulate with the currently selected configuration.
