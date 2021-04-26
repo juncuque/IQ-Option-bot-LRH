@@ -53,7 +53,7 @@ I decided to abandon this project after 2 months of coding it, after realizing t
 
 Anyway, my secondary objective was to learn more about coding and I think I did learn a lot by making this, so there's that.
 
-Also, I used Lu Yi Hsun's API to connect the code with IQ Option, where his Githbu's page: https://github.com/Lu-Yi-Hsun/iqoptionapi
+Also, I used Lu Yi Hsun's API for IQ Option, where his Github's page: https://github.com/Lu-Yi-Hsun/iqoptionapi
 
 
 # Results
