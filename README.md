@@ -72,6 +72,7 @@ For anyone wanting to continue/use my work, I lend this code here in GitHub free
 7. Any modifications of this code base MUST be distributed with the same license, GPLv3.
 8. This software is provided without warranty.
 9. The software author or license can not be held liable for any damages inflicted by the software.
+
 *This license only apply to botexe.py in this GitHub's page
 
-    Copyright © 2021 by Lycanhunt3r - GLPv3
+        Copyright © 2021 by Lycanhunt3r - GLPv3
