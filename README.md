@@ -1,5 +1,5 @@
 # IQ-Option-bot-LRH
-An automatic bot for IQ Option, using BBands as the main strategy. Plus configurations and simulator.
+An automatic bot for IQ Option, using BBands as the main strategy. Plus saving systems, configurations, cataloguer, simulator, and analyzer.
 
 # How to make it work
 - First, you need to have Python 3.7 and its pip installed.
