@@ -8,7 +8,7 @@ An automatic bot for IQ Option, using BBands as main strategy. Plus configuratio
   IMPORTANT NOTE: Never trust .bat files, it's always recomended to right-click and select "edit" to see what the code is about before executing them. It also goes for modifing or adding code without any kwnoledge of what you're doing.
 - Finally, you can execute "@startbot.bat" or use the CMD in the folder with the command: "python botexe.py".
 - Upon the start of the program you can move within it by typing the numbers or commands show in the screen and sending with the "enter" button.
-- At first, you'll be asked to login with your IQ Option account, you may do so putting your email and password, do not worry because that information is going to stay only on your PC and will be encrypted with our hardware serial ID, meaning that it's only possible to uncrypt it if you run the program within your PC's hardware.
+- At first, you'll be asked to login with your IQ Option account, you may do so putting your email and password, do not worry, that information is going to stay only on your PC and will be encrypted with your hardware serial ID, meaning that it's only possible to uncrypt it if you run the program within your PC's hardware.
 - You'll now be presented with a menu, you're free to explore as everything has a brief explanation within the pages, just do know that by tipying "0" you'll start the bot in the PRACTICE account of your profile, to change it (although not recomended unless the configuration had been deeply tested) you can do so at the "Account Information".
 
 
