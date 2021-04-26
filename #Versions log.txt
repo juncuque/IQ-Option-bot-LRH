@@ -1,0 +1,150 @@
+	v0.1:
+ + Funcional bot
+ + Search pars on start
+ + Simulating bet system
+
+	v0.2:
+ + Real bet system
+ + Keep updating and searching pars in each minute
+ + Big titles in the code for better edit managing
+
+	v0.2.2:
+ + Minor problems fixed (None object for self in "stable_api.py")
+ + Fixed wrong par list sorting (which added from worst to better, instead of better to worst)
+ + Increased performace of update pars to 2 seconds. (v0.2.1 = 5s | v0.2 = 25s~100s) 
+		[changed how the code worked on "stable_api.py" and to get payout to all beforehand, instead to each par individually]
+
+	v0.3:
+ + Changed bot table order and optimized screen space
+ + Added Login menu, and accounts list
+ + Added Profile menu, and profiles storage and cryptography
+ + Added account menu
+ + Added Configuration menu, and configurations list and configuration stats
+ + Fixed bug: which added new pars when the priority should be to keep the pars that are already in list (ZZ_NEW to AA_NEW)
+ + Fixed bug: perma load to check win, created a check_winv4 that checks every loop, instead of looping to check.
+ > Has cataloguer and simulator menu, but they are in WIP and not functional.
+
+	v0.3.1:
+ + Added cmd_debug option for better understanding of bot processing (tried to catch a process stop bug, couldn't find it)
+
+	v0.4:
+ + Added cataloguer, and it's menu
+ + Added simulator, and it's menu	(only single-config tested)
+ - Removed cmd_debug for optimization purposes
+
+	v0.5:
+ + Optimized the simulation immensely (from 682e/s to 152355e/s [22339,44%])
+	Code optimized in general
+	Improved efficiency, specializing to simulation instead of using the same code of real betting.
+	Multiprocessing implementation for simulator
+	Added a cache system to re-use data already calculated, instead of calculating everytime 
+		(worst to single simulations, but better for repeating ones or multi-config)
+ + Made simulations on multi-config possible.
+ + Improved stats holder for simulation and where it's stored.
+ + Shortened config['id'], but lost the possibility to convert the name to config.
+
+	v0.5.1:
+ + Fixed bug in show_simulator_progress which didn't show over the int cap in shared memory (done and total entries).
+	Also optimized it to not use memory share.
+ + Reorganized code, so it's better understandable. As well as adding more comments.
+ + Optimized simulation's cache to local variable, instead of global.
+	Also fixed minor bugs.
+ + Fixed the possibility to catalogue large ammounts of time.
+	Code didn't work properly above monthly for the simulator (high cost of RAM and miss sort of files).
+ + Cataloguer now uses multi-processing (~12x faster, but it costs much more CPU).
+ + Fixed type error which made multi-config simulations to save keep_bet_file all in the same dir, rewritting it everytime.
+
+	v0.5.2: [REMOVED: program malfunctioning]
+ + Simulator's code changed to Cython (~20% faster)
+	Tried pypy as well, but it was slower than normal python.
+	Optimized the code to completely specialize on simulation-only
+
+	v0.6 alpha:
+ + Translated portuguese comments to english
+ + has v0.6's unfinished work
+
+
+
+	v0.6: {ANALYZER UPDATE} [TO BE DONE]
+
+
+(TO GO)
+ + Optimized real betting system (making the bet code to be multiprocessed, instead of single, which decreased winrate acuracity)
+ + Added a way to see previous simulations saved in data.
+ + Added analyzer, and it's menu
+	Added Multi-pattern strategy
+
+
+
+ to go for v0.7
+Added more strategies*
+
+ to go for v0.8
+Added Recorder
+
+
+
+ to go for v1.0
+Added a good interface, not needing to open via .bat
+
+
+
+
+
+
+		### PLANNED: ###
+
+	=> TO FIX & ADD:
+> Make a better way to check if a simulation was done already.
+> Make a list of done simulations and ongoing ones, being able to check results/continue simulation
+> Improve the configuration's list menu (long names get cut, make it two lines instead of one)
+	"	1.	Standart Configuration		(total bets[winrate%])
+		   real: real_bets (real_winrate%)	simul: simul_bets (simul_winrate%)
+		
+		2.	My Custom configuration ...		 
+	"
+> Improve configuration handling and updating (needing to create a new configuration to a single var change)
+	Instead of creating a new configuration for a variable change, use the current name but pull the old one with a new name.
+	Allow to remove configurations
+	Allow to see when they were created
+	etc...
+> Clean the code of:
+	Multiple save/load functions: put them all together but now with a string variable to say what function you want to act.
+	Multiple progress page's: create a single function for all of them (ETA, NAME, PRCT, PROGRESS, etc.).
+> Look for any optimizations possible (specially in heavy functions).
+> Option in user's configuration to use an account as main and to login into it on start.
+> Allow for the user to choose if he wants to use cache or not in simulations, exchanging process time for drive's storage.
+
+
+	=> Geral code remodeling patch:
+> change all variables, titles and comments to English		(pontos = entry | valor = value)
+> change last_valor, last_bbands, etc. to a single last_entry array
+
+
+	=> Recorder patch:
+> new system to record bet situation and put on a external file (value, mood, time, par_name, volume)
+> new system to take the recorded bets and simulate with different range of config and find what config is best and the worsts
+> save stats and configs used.
+> Allow to record in real bets, to save in the config stats, being able to see the stats from a config
+
+
+	=> Analyzer patch:
+> Create a multipattern strategy, which changes strategy according to what works best with current variables at the stream.
+> Analyzes what characteristics within the simulation that worked best, then create a chimera strategy.
+
+
+	=> Smart-simulator patch:
+> Add a "smart" mode to simulation, allowing to start with a few configurations, then it will analyze the results and generate new...
+	... configurations based on the characteristics that were right, and so on, until a certain point where no better results were reached. (AI ?)
+
+
+	=> Add Strategies patch:
+> more custom strategies, all having a switch to use it or not.
+> Gravity
+> Resistence lines and such
+> Martingale
+> Sorosgale
+> MHI (?)
+> MHI2 (?)
+> HMI potencializada	{MHI potencializada?} (?)
+> MTG (?)
