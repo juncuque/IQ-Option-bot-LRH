@@ -46,13 +46,14 @@ At the end of it, you'll be presented with a report of all the configurations an
 NOTE: Some Binaries won't have a result, probably because the variable of "bbands_desvio" is out of range in some currencies. (or something like that)
 
 
-# About the bot's code
+# About the bot's creation
 It's the first time I coded in python, so don't expect it to be organized or pretty to look at. 
 
 I decided to abandon this project after 2 months of coding it, after realizing that this bot wouldn't be a "gold mine" as I was hoping for and that it would have a massive impact on my CPU to truly try reaching a good strategy. 
 
 Anyway, my secondary objective was to learn more about coding and I think I did learn a lot by making this, so there's that.
 
+Also, I used Lu Yi Hsun's API to connect the code with IQ Option, where his Githbu's page: https://github.com/Lu-Yi-Hsun/iqoptionapi
 
 # Results
 If anyone wants to know how good this bot’s results are: well, I think I did found a strategy different from 50% winrate, which after days of real betting and months worth at the simulator I ended up with some strategies that reached somewhere about 51.6% winrate, which is still lower than the 52.6% needed to start profiting from a 90% payout. Maybe if I tested out more strategies and implemented other ideas I had, I believe it would be possible to increase it even further, maybe to a point where it has some profit at lower payouts. 
