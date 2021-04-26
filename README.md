@@ -75,4 +75,4 @@ For anyone wanting to continue/use my work, I lend this code here in GitHub free
 
 *This license only apply to the code in botexe.py at this GitHub's page
 
-        Copyright © 2021 by Lycanhunt3r - GLPv3
+        Copyright © 2021 by Lycanhunt3r - GPLv3
