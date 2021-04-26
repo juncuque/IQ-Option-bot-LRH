@@ -20,7 +20,7 @@ Software tested only in Windows OS.
 # Functional BOT
 The bot is completely automatic once you start it, you can set the configuration, the desired payout to be, and max loss limit in a single run beforehand at the configuration's menu. 
 
-You'll be able to see the result in real-time, together with what are the stats on each BINARY option and each bet made. It searches, holds, and updates every Binary option automatically, being able to have an unlimited number of rows. Until where I stopped coding, only Binaries are available for the bot to work on.
+You'll be able to see the result in real-time, together with what are the stats on each TURBO option and each bet made. It searches, holds, and updates every Turbo option automatically, being able to have an unlimited number of rows. Until where I stopped coding, only Binaries are available for the bot to work on.
 
 To stop it, you simply click to close the window normally. 
 
@@ -32,7 +32,7 @@ The results of the bets will be saved on the configuration file so you can see t
 # Simulations
 For this part it's recomended for better hardware-only, because it may be slow depending on the CPU, it needs a lot of space available to storage, and may not even work if you have 4MB of RAM or less. (tests need to be made)
 
-To do a simulation first you need to open the cataloguer, it will simply collect all the data from the IQ Option servers from past values on the binary options. (2 Months = 12.6GB;  1 Week = 1.49GB; 1 Day = 218MB) {They are day's worth, meaning that they always are going to be more than a day because IQ Option closes for somedays and sometimes}
+To do a simulation first you need to open the cataloguer, it will simply collect all the data from the IQ Option servers from past values on the Turbo options. (2 Months = 12.6GB;  1 Week = 1.49GB; 1 Day = 218MB) {They are day's worth, meaning that they always are going to be more than a day because IQ Option closes for somedays and sometimes}
 
 Then, you'll be able to do a simulation with the collected data, there are going to be two options: multi-simulation and single-simulation. For multi-simulation, you can hold an array of values for each configuration variable for it to cross-test, while the single-simulation will only simulate with the currently selected configuration.
 
