@@ -3,6 +3,7 @@ An automatic bot for IQ Option, using BBands as main strategy. Plus configuratio
 
 # How to make it work
 - First you need to have Python 3.7 and it's pip installed.
+- It's recomended to have these files in a enclosed and previously empty foulder.
 - Then you need to have the proper libraries for the code to work by executing "install_libraries.bat" or installing one by one as they are shown in the code.
   IMPORTANT NOTE: Never trust .bat files, it's always recomended to right-click and select "edit" to see what the code is about before executing them. It also goes for modifing or adding code without any kwnoledge of what you're doing.
 - Finally, you can execute "@startbot.bat" or use the CMD in the folder with the command: "python botexe.py".
