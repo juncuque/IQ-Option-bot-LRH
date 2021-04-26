@@ -42,7 +42,7 @@ Don't worry about keeping your PC turned on all the time, I made a save system w
 At the end of it, you'll be presented with a report of all the configurations and a "podium" of which were the best, you can select by typing their position number and then add it to your configuration list.
 
 
-NOTE: Some Binaries won't have a result, probably because the variable of "bbands_desvio" is out of range in some currencies. (or something like that)
+NOTE: Some Turbo options won't have a result, probably because the variable of "bbands_desvio" is out of range in some currencies. (or something like that)
 
 
 # About the bot's creation
