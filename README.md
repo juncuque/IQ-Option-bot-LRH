@@ -55,6 +55,7 @@ Anyway, my secondary objective was to learn more about coding and I think I did 
 
 Also, I used Lu Yi Hsun's API to connect the code with IQ Option, where his Githbu's page: https://github.com/Lu-Yi-Hsun/iqoptionapi
 
+
 # Results
 If anyone wants to know how good this bot’s results are: well, I think I did found a strategy different from 50% winrate, which after days of real betting and months worth at the simulator I ended up with some strategies that reached somewhere about 51.6% winrate, which is still lower than the 52.6% needed to start profiting from a 90% payout. Maybe if I tested out more strategies and implemented other ideas I had, I believe it would be possible to increase it even further, maybe to a point where it has some profit at lower payouts. 
 
