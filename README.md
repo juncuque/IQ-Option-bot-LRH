@@ -13,9 +13,13 @@ An automatic bot for IQ Option, using BBands as main strategy. Plus configuratio
 
 # Functional BOT
 The bot is completely automatic once you start it, you can set the configuration, desired payout to be, and max loss limit in a single run beforehand at the configuration on menu. 
+
 You'll be able to see the result in real time, together with what are the stats on each BINARY option and each individual bet. It searches, holds and updates every Binary option automaticly, being able to have an unlimited number of rows. Until where I stopped coding, only Binaries are available for the bot to work on.
+
 To stop it, you simply click to close the window normally. 
+
 You can have multiple windows of the the bot working simultaneously, but it's not recomended to do that with them on the same configuration, because they may righting different/wrong results on the save file and maybe even crashing.
+
 The results in the bets will be saved on the configuration file so you can see the winrate of it even between different days you started the bot.
 
 
@@ -38,6 +42,7 @@ NOTE: Some Binaries won't have an result, probably because the variable of "bban
 It's the first time I coded in python, so don't expect it being organized or pretty to look at. 
 
 I decided to abbandon this project after 2 months coding it, after realizing that this bot wouldn't be a "gold mine" as I was hoping for and that it would have a massive impact on my CPU to truly try reaching a good strategy. 
+
 Anyway, my secondary objective was to learn more about coding and I think I did learn a lot by making this, so there's that.
 
 
