@@ -12,7 +12,7 @@ An automatic bot for IQ Option, using BBands as main strategy. Plus configuratio
 
 
 # Functional BOT
-The bot is completely automatic once you start it, you can set the configuration, desired payout to be, and max loss limit in a single run beforehand at the configuration on menu. 
+The bot is completely automatic once you start it, you can set the configuration, desired payout to be, and max loss limit in a single run beforehand at the configuration's menu. 
 
 You'll be able to see the result in real time, together with what are the stats on each BINARY option and each individual bet. It searches, holds and updates every Binary option automaticly, being able to have an unlimited number of rows. Until where I stopped coding, only Binaries are available for the bot to work on.
 
