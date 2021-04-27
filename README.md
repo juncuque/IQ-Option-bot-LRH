@@ -17,6 +17,9 @@ Software tested only in Windows OS.
 
 
 # Functional BOT
+
+[Prints of the bot](https://imgur.com/a/yXFWAgc)
+
 The bot is completely automatic once you start it, you can set the configuration, the desired payout to be, and max loss limit in a single run beforehand at the configuration's menu. 
 
 You'll be able to see the result in real-time, together with what are the stats on each TURBO option and each bet made. It searches, holds, and updates every Binary Option automatically, being able to have an unlimited number of rows. Until where I stopped coding, only Binaries are available for the bot to work on.
