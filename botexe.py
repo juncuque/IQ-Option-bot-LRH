@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 
+###############################################################################################################################################
+
+	# Original code at https://github.com/lycanhunt3r/IQ-Option-bot-LRH #
+		# Copyright © 2021 by Lycanhunt3r - GPLv3 #
+		
+###############################################################################################################################################
 
 import logging, json, sys, time, os, configparser, pickle, uuid, base64, random, math, shutil, pstats, io, multiprocessing
 import webbrowser, platform, ast, subprocess, threading
