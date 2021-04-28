@@ -250,10 +250,13 @@ class IQ_Option:
 
     # ------- chek if binary/digit/cfd/stock... if open or not
 
-    def get_all_open_time(self, type_to_get):        #LRH: 'all': all | 'binaries': turbo and binary | 'other': cfd, forex, crypto
+    def get_all_open_time(self, type_to_get='turbo'):        #LRH: 'all': all | 'binaries': turbo and binary | 'other': cfd, forex, crypto
         # for binary option turbo and binary
         OPEN_TIME = nested_dict(3, dict)
         binary_data = self.get_all_init_v2()
+        
+        if type_to_get is None:
+            type_to_get = 'turbo'
         
         pass_towards = True
         if 'binaries' in type_to_get or 'all' in type_to_get:
